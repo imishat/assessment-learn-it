@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
-import logo from "@/public/logo/assessment-logo 3.png";
-import profile from "@/public/logo/profile.png";
+import logo from "../../../../../public/logo/assessment-logo 3.png";
+import profile from "../../../../../public/logo/profile.png";
 import { FaSearch } from "react-icons/fa";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { useState } from "react";
