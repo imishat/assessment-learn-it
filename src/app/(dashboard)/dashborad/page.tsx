@@ -2,9 +2,7 @@ import Image from "next/image";
 import img1 from "@/public/images/Frame 873.png";
 import img2 from "@/public/images/Group 160.png";
 import polygon from "@/public/images/Polygon 1.png";
-import Search from "./search/Search";
-import ShowTable from "./table/Table";
-import StudentCard from "./students/StudentCard";
+
 
 export default function Dashboard() {
   return (
@@ -53,12 +51,11 @@ export default function Dashboard() {
         </ul>
       </div>
       <div className="bg-white p-5 rounded-[25px]">
-        {/* <Search />
-        <ShowTable /> */}
+        
       </div>
 
       <div>
-      {/* <StudentCard/> */}
+      
       </div>
     </div>
   );
