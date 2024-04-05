@@ -29,7 +29,7 @@ export default function Sidebar() {
         </div>
 
         <div className="my-6 text-center space-y-4">
-          <h5 className="text-[#161616] font-normal">Razibul Islam</h5>
+          <h5 className="text-[#161616] font-normal">Mojahid Islam</h5>
           <p className="text-[#565656]">Front-End Developer</p>
         </div>
         <div>
