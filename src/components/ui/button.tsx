@@ -17,6 +17,8 @@ const buttonVariants = cva(
           "bg-[#FFB606] text-secondary-foreground shadow-sm hover:bg-[#FFB606]/80",
         ghost:
           "bg-[#F6F6F6] text-ghost-foreground shadow-sm hover:bg-[#F6F6F6]/80",
+
+          
       },
       
       size: {
