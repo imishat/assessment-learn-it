@@ -1,7 +1,12 @@
+import React, { ReactNode } from "react";
 import Navbar from "./components/Navbar/Navbar";
-import Sidebar from "./components/Sidebar/Sidebar";
+import Sidebar from "../(dashboard)/components/Sidebar/Sidebar";
 
-export default function dashboardLayout({ children }: any) {
+interface DashboardLayoutProps {
+  children: ReactNode;
+}
+
+export default function DashboardLayout({ children }: DashboardLayoutProps) {
   return (
     <div className="w-full lg:w-[1440px] mx-auto bg-[#F6F6F6]">
       <Navbar />
