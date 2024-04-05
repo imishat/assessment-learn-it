@@ -1,6 +1,6 @@
 import React, { ReactNode } from "react";
 import Navbar from "./components/Navbar/Navbar";
-import Sidebar from "./components/Sidebar/page";
+import Sidebar from "../(dashboard)/components/Sidebar/page"
 
 
 interface DashboardLayoutProps {
