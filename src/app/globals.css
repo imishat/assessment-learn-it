@@ -78,12 +78,6 @@
   }
 }
 
-.bgImage {
-  background-image: url("../../public/images/cardbg.png");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
 .bg-bgOne {
   background: url("../../public/images/Mask\ group.png") center/cover no-repeat,
     #26235b;
