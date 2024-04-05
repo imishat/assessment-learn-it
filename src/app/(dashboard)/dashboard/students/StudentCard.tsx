@@ -3,6 +3,7 @@
 import Ellipse from "../../../../../public/images/Ellipse 16.png";
 import Image from "next/image";
 import Dropdown from "./components/Dropdown";
+import Avatar from "@/components/ui/avater";
 
 export default function StudentCard() {
   return (
@@ -10,7 +11,8 @@ export default function StudentCard() {
       <div className="w-[400px] shadowBox">
         <div className="bg-bgOne bg-no-repeat bg-center bg-cover py-4  rounded-t-[20px] w-full ">
           <div className="flex justify-center items-center">
-            <Image src={Ellipse} alt="" />
+            {/* <Image src={Ellipse} alt="" /> */}
+            <Avatar image={Ellipse}    rounded={true} />
           </div>
         </div>
 

@@ -5,6 +5,7 @@ import profile from "../../../../../public/logo/profile.png";
 import { FaSearch } from "react-icons/fa";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { useState } from "react";
+import Avatar from "@/components/ui/avater";
 
 export default function Navbar() {
   const [hidden, setHidden] = useState(true);
@@ -33,7 +34,8 @@ export default function Navbar() {
             <FaSearch />
           </div>
           <div>
-            <Image src={profile} alt="profile" width={48} height={48} />
+            {/* <Image src={profile} alt="profile" width={48} height={48} /> */}
+            < Avatar size="medium" name={"Abdullah"} image={profile}/>
           </div>
         </div>
         <div className="block md:hidden" onClick={() => setHidden(!hidden)}>

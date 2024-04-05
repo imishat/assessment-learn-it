@@ -1,3 +1,4 @@
+import Avatar from "@/components/ui/avater";
 import profile from "../../../../../public/logo/profile.png";
 import Image from "next/image";
 import Link from "next/link";
@@ -19,11 +20,12 @@ export default function Sidebar() {
         <div className="border-4 border-[#8280A0] rounded-full w-[206.92px] h-[206.92px] mx-auto flex items-center justify-center">
           <div className="border-4 border-[#DEDEE6] rounded-full w-[194.92px] h-[194.92px] flex items-center justify-center">
             <div className="border-4 border-[#BCBBCC] rounded-full w-[182.92px] h-[182.92px] flex items-center justify-center">
-              <Image
+              {/* <Image
                 src={profile}
                 alt="Profile Image"
                 className="w-[170.92px] h-[170.92px] rounded-full"
-              />
+              /> */}
+              <Avatar image={profile} size="large"   rounded={true} />
             </div>
           </div>
         </div>
