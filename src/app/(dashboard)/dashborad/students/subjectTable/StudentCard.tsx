@@ -1,4 +1,4 @@
-import Ellipse from "@/public/images/Ellipse 16.png";
+import Ellipse from "../../../../../../public/images/Ellipse 16.png";
 import Image from "next/image";
 
 export default function StudentCard() {

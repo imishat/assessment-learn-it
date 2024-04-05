@@ -5,6 +5,6 @@ import Dashboard from "./(dashboard)/dashborad/page";
 
 export default function Home() {
   return (
-  <><Dashboard/></>
+<></>
   );
 }
